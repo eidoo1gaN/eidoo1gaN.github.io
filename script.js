@@ -1,8 +1,10 @@
-console.log(`stop digging around in here`);
 
 
 
 document.getElementById("submitButton").onclick = function(){
-    const listObject = document.createElement("li");
-    listObject.textContent = document.getElementById("textbox").value;
+    let input = document.createElement("li");
+    let textbox = document.createTextNode(String(document.getElementById("textbox").value));
+    input.appendChild(textbox);
+    document.getElementById("codingList").appendChild(input);
+    console.log(input);
 }
