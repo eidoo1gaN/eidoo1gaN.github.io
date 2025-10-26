@@ -3,6 +3,7 @@ head{
 }
 body{
  background-color: #2F5755;
+ font-family:'Courier New', Courier, monospace;
 }
 li{
  color: #E0D9D9;
